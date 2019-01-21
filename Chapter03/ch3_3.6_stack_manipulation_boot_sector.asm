@@ -1,4 +1,4 @@
-mov ah, 0x0e
+mov ah, 0x0e	; int 10/ah = 0eh -> scrolling teletype BIOS routine
 
 mov bp, 0x8000 ; set stack base pointer
 mov sp, bp     ; set stack pointer to base stack pointer
