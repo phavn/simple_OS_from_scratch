@@ -11,6 +11,7 @@ end_print_hex:
   popa
   ret
 
+%include "ch3_q4_print_string_boot_sector.asm"
 
 HEX_OUT:
 db '0000', 0

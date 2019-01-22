@@ -1,6 +1,6 @@
-[org 07c00]
+[org 0x7c00]
 
-mov dx, 1fb6
+mov dx, 0x1fb6
 call print_hex
 
 jmp $
